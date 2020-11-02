@@ -1,0 +1,78 @@
+ <style>
+      
+     @font-face 
+      {
+      font-family:AmaticSC;
+      src: url ("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Schoolbell&display=swap");
+      }
+       
+      
+         body {
+        
+        background-image:url("https://www.linkpicture.com/q/photo-1518818419601-72c8673f5852.jpg");
+        font-family:Yu Gothic,"Arial Black",Arial, gadugi, sand-serif;
+        
+        
+        
+      }
+      
+     
+      
+      h1{
+        color:#C1D9E8;
+        font-family:AmaticSC;
+        text-align:center;
+        border: white double 3px;
+        font-family :school;
+       }
+      
+      
+      h2{
+        color:#B4C7AF;
+        font-family:Times New Roman;
+        text-align:center;
+        border : grey dashed 2px ;
+        font-family:MyCustomFont;
+       }
+      
+      
+      
+      h3{
+        color:#C1D9E8 ;
+        font-family:Helvetica;
+        text-align:center;
+        border: grey dashed 3px;
+       }
+      
+     
+     
+       p {
+        color:#C1D9E8;
+        text-align:center;
+        border-width:5.5px;
+        border-color:#9E273B;
+        border-style:double;
+        border-radius:25px;
+        box-shadow:10px 1px 5px black;
+        text-shadow:1px 0.5px 1px black;
+      }
+      
+     
+      
+      img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:20%;
+      }
+      
+      div {
+        font-size:20px;
+        font-family:Arial;
+        color:#B4C7AF;
+      }
+      
+      
+      
+      
+    </style>
