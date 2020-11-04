@@ -4,7 +4,7 @@ window.addEventListener("load",function(){
 });
 
 function GetBookings(){
-    let url='https://api.sheety.co/300292224bcaf649e29ec0b698ae9321/bookingApp/bookings';
+    let url='https://api.sheety.co/300292224bcaf649e29ec0b698ae9321/newbooking/bookings';
       fetch(url)
         .then((response) => response.json())
         .then(json=> {
