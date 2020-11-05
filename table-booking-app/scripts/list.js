@@ -63,14 +63,15 @@ function GetBookings(){
         method: 'DELETE',
       })
       .then((response) =>{ 
-            let table = document.getElementaryById(" booking-list");
-            for(let i=1; i < table.rows.length;i++)
-            {
-               table.deleteRow(i);
+             location.reload();
+           // let table = document.getElementaryById(" booking-list");
+           // for(let i=1; i < table.rows.length;i++)
+           // {
+           //    table.deleteRow(i);
 
 
-            }
-            GetBookings();
+           // }
+            //GetBookings();
             
       });
 
