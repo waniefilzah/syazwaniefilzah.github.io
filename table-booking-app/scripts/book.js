@@ -39,7 +39,7 @@ function BookNow(guestName,guestEmail,guestPax){
       let name = document.getElementById("guestName").value;
       let email = document.getElementById("guestEmail").value;
       let pax=document.getElementById("guestPax").value;
-      let pax=document.getElementById("guestPackages").value;
+      let packages=document.getElementById("guestPackages").value;
       let remarks= document.getElementById("guestRemarks").value;
 
       console.log(name+"," + email+","+pax+ ","+ packages+","+remarks)
