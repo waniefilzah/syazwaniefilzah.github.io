@@ -11,8 +11,7 @@ function GetBookings(){
         //do something with the data
         //console.log(json.bookings);
         var bookings = document.getElementById("booking-list");
-        var bookingIds=[];
-      
+        
         
        for(var i= 0;i<json.bookings.length; i++){
          var gName = json.bookings[i].name;
@@ -21,6 +20,7 @@ function GetBookings(){
          var gId = json.bookings[i].id;
          var buttonId ="delete"+gId;
          
+
         let row=bookings.insertRow(bookings.rows.length);
         row.insertCell(0).innerHTML =gId;
         row.insertCell(1).innerHTML =gName;
