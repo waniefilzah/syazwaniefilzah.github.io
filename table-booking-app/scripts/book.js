@@ -24,8 +24,8 @@ function BookNow(guestName,guestEmail,guestPax,guestPackages,guestRemarks){
       .then(json => {
         // Do something with object
         console.log(json.booking);
-        //document.getElementById("bookMsg").innerHTML = json.booking.name + " successfully added";
-       // GetBookings();
+        alert(json.booking.name)  + " successfully added";
+       
       });
     
     
@@ -45,7 +45,7 @@ function BookNow(guestName,guestEmail,guestPax,guestPackages,guestRemarks){
       let packages=document.getElementById("guestPackages").value;
       let remarks= document.getElementById("guestRemarks").value;
 
-      console.log(name+"," + email+","+pax+ ","+ packages+","+remarks)
+      BookNow(name,email,pax,packages,remarks)
       
     });
 
