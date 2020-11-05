@@ -9,4 +9,11 @@
         background-color:grey;
         border: 1px solid white;
       }
+
+      header {
+        background-color:red;
+        width:100%;
+        text-align: center;
+        margin-top:-10px;
+      }
   
