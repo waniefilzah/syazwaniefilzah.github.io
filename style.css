@@ -16,4 +16,42 @@
         text-align: center;
         margin-top:-10px;
       }
+
+      button  {
+        background-color:darkred;
+      }
   
+
+      h3{
+        color:rgb(117,130,59);
+        font-family:MyCustomFont;
+        text-decoration:overline underline line-through;
+        text-align:center;
+        border: red dotted 5px;
+      }
+
+      
+      H1{
+        color:rgb(117,130,59);
+        font-family:MyCustomFont;
+    
+        text-align:center;
+        border: red dotted 5px;
+      }
+
+      img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:30%;}
+
+
+            
+      p{
+        color:blue;
+        font-size:2em;
+        text-decoration:overline underline line-through;
+        text-align:center;}
+   
+        
+      
