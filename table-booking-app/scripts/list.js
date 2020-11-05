@@ -29,9 +29,8 @@ function GetBookings(){
         row.insertCell(2).innerHTML=gEmail;
         row.insertCell(3).innerHTML=gPax;
         row.insertCell(4).innerHTML=gPackages;
-        row.insertCell(5).innerHTML=gRemark;
-       // row.insertCell(5).innerHTML="";
-        row.insertCell(6).innerHTML="<button id='"+ buttonId+"'class='btn btn-danger'>Delete</button></br>";
+        row.insertCell(5).innerHTML="";//remarks
+        row.insertCell(6).innerHTML="<button id='"+ buttonId+"class='btn btn-danger'>Delete</button></br>";
 
    
          bookingIds.push(buttonId);
