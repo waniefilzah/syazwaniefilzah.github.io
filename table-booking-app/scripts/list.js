@@ -14,7 +14,7 @@ function GetBookings(){
         var bookingIds=[];
       
         
-       for(var i= 0;i<json.bookings.length;i++){
+       for(var i= 0;i<json.bookings.length; i++){
          var gName = json.bookings[i].name;
          var gEmail = json.bookings[i].email;
          var gPax = json.bookings[i].pax;
